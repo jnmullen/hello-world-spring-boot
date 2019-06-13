@@ -22,22 +22,6 @@
     </dependencies>
     <build>
         <plugins>
-            <!--<plugin>-->
-                <!--<groupId>com.heroku.sdk</groupId>-->
-                <!--<artifactId>heroku-maven-plugin</artifactId>-->
-                <!--<version>2.0.3</version>-->
-                <!--<configuration>-->
-                    <!--<appName>gentle-plateau-99176</appName>-->
-                    <!--<includeTarget>false</includeTarget>-->
-                    <!--<includes>-->
-                        <!--<include>target/myproject-0.0.1-SNAPSHOT.jar</include>-->
-                    <!--</includes>-->
-                    <!--<jdkVersion>1.8</jdkVersion>-->
-                    <!--<processTypes>-->
-                        <!--<web>java $JAVA_OPTS -jar target/myproject-0.0.1-SNAPSHOT.jar</web>-->
-                    <!--</processTypes>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
